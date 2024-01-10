@@ -1,7 +1,9 @@
 # EasySanté - Mental Health Support Application
 
 ## The idea
-In a world dominated by digital screens and social media, mental health issues, often termed 'silent killers,' are on the rise. EasySanté addresses this challenge by providing a user-friendly platform connecting individuals with mental health professionals. The project integrates video/audio API for virtual therapy sessions and wearable technology, such as rechargeable bracelets, to monitor heart rates and sleep quality.
+EasySanté addresses the issues of mental-health 'silent killers' by providing a user-friendly platform connecting individuals with mental health professionals. The project integrates video/audio API for virtual therapy sessions and wearable technology, including a custom-made hardware bracelet. This bracelet collects user data, such as heart rate and sleep patterns, and seamlessly transmits the information to healthcare professionals (HCPs) for comprehensive mental health monitoring.
+
+The EasySanté web application is built with the MERN (MongoDB, Express.js, React, Node.js) stack, utilizing MongoDB as the primary storage solution for efficient collection and management of user data. 
 
 ### Background
 EasySanté aims to bridge the gap between Canadians facing mental health challenges and certified therapists. Alarming statistics from the Canadian Mental Health Association (CMHA) underscore the urgency of this project. The application focuses on treatment and continuing care, addressing two crucial pillars of the mental health healing process.
@@ -32,5 +34,15 @@ The EasySanté website features two user types: Healthcare Professionals (HCP) a
 - **Profile:** Allows HCPs to view and edit their data and appointments.
 
 The integrated chat system ensures a direct channel between users and HCPs, fostering real-time communication for remote consultations and emergency diagnoses.
+
+## Hardware Overview
+
+### Accelerometer (ADXL346/362)
+
+The accelerometer monitors body movement, aiding in sleep analysis and sedentary behavior detection. It provides insights into sleep stages, distinguishing between stages 1, 2, and 3/REM. The data also includes activity breakdowns such as time spent moving, walking, and engaging in physical activities. Graphs visualize the distribution of time across sleep stages and activity types.
+
+### Pulse Sensor (MAX30102)
+
+Designed to detect anxiety, fear, depression, stress, or PTSD, the pulse sensor measures heart rate beats per minute and heart rate variability. It tracks heart rate variability between beats, indicating stress levels. The application displays baseline and live heart rates, highlighting differences. Graphs illustrate heart rate variations, assisting in stress level analysis (high or low).
 
 
