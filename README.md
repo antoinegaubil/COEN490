@@ -21,6 +21,8 @@ EasySanté targets a broad spectrum of mental disorders, connecting users with t
 
 ### Website Architecture
 
+**A clear and full picture of the web application architecture can be found under the UFD - WebApp.drawio.png file of the repository.**
+
 ![overall](https://github.com/antoinegaubil/EasySante-Web-Application/assets/90474617/336baa9e-bcac-4e4c-999f-48b3810d368d)
 
 *Flow Chart of the authentification system of the web application*
