@@ -37,6 +37,8 @@ The integrated chat system ensures a direct channel between users and HCPs, fost
 
 ## Hardware Overview
 
+The two sensors are seamlessly integrated into a custom-made PCB bracelet with a 3D-printed casing, providing a compact and wearable solution that monitors body movement, sleep analysis, heart rate, and stress levels, offering insightful visualizations for users.
+
 ### Accelerometer (ADXL346/362)
 
 The accelerometer monitors body movement, aiding in sleep analysis and sedentary behavior detection. It provides insights into sleep stages, distinguishing between stages 1, 2, and 3/REM. The data also includes activity breakdowns such as time spent moving, walking, and engaging in physical activities. Graphs visualize the distribution of time across sleep stages and activity types.
