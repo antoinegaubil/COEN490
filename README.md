@@ -20,15 +20,30 @@ EasySanté targets a broad spectrum of mental disorders, connecting users with t
 ## Design Specifications
 
 ### Website Architecture
+
+![overall](https://github.com/antoinegaubil/EasySante-Web-Application/assets/90474617/336baa9e-bcac-4e4c-999f-48b3810d368d)
+
+*Flow Chart of the authentification system of the web application*
+
 The EasySanté website features two user types: Healthcare Professionals (HCP) and Patients. HCPs receive "@easysante.com" logins for accessing their dedicated portal. Users can log in or create an account. The user dashboard displays heart rate data, providing insights into sleep quality and stress levels.
 
 #### User Side Architecture:
+
+![user](https://github.com/antoinegaubil/EasySante-Web-Application/assets/90474617/3e74aa83-65bc-4d67-a220-3446c53ab21d)
+
+*Flow Chart of the user architecture of the web application*
+
 - **Dashboard:** Displays heart rate data and related insights.
 - **Connect:** Enables direct communication with assigned HCP for scheduled appointments.
 - **Book Appointments:** Allows users to browse and book appointments with registered HCPs.
 - **Profile:** Users can view and edit personal data, past appointments, and privacy settings.
 
 #### HCP Side Architecture:
+
+![hcp](https://github.com/antoinegaubil/EasySante-Web-Application/assets/90474617/cbce5c5e-c19c-4bf3-850c-6adaadbf2a4a)
+
+*Flow Chart of the HCP architecture of the web application*
+
 - **Calendar:** Displays future appointments for HCPs.
 - **Connect:** Facilitates direct communication with assigned users.
 - **Profile:** Allows HCPs to view and edit their data and appointments.
