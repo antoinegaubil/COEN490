@@ -38,11 +38,13 @@ The integrated chat system ensures a direct channel between users and HCPs, fost
 ## Hardware Overview
 
 ![PCB](https://github.com/antoinegaubil/EasySante-Web-Application/assets/90474617/4445f3ec-0665-4419-bc08-551d13c63f3a)
-Figure of the circuit diagram showing all connections for hardware device
+
+* Figure of the circuit diagram showing all connections for hardware device *
 
 
 ![pcb2](https://github.com/antoinegaubil/EasySante-Web-Application/assets/90474617/1f8e0195-f577-4567-822c-96771e4beb09)
-Figure of PCB Layout for all hardware components
+
+*Figure of PCB Layout for all hardware components*
 
 
 The two sensors are seamlessly integrated into a custom-made PCB bracelet with a 3D-printed casing, providing a compact and wearable solution that monitors body movement, sleep analysis, heart rate, and stress levels, offering insightful visualizations for users.
